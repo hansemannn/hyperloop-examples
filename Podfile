@@ -2,8 +2,8 @@ install! 'cocoapods',
          :integrate_targets => false
 
 use_frameworks!
+platform :ios, '9.0'
 
-platform :ios, '8.0'
 target 'Hyperloop_Sample' do
 	pod 'JBChartView'
 	pod 'GLCalendarView', '~> 1.2'
@@ -11,4 +11,5 @@ target 'Hyperloop_Sample' do
 	pod 'Localytics', '~> 4.4.1'
 	pod 'MMMarkdown'
 	pod 'CocoaSSDP'
+	pod 'ImagePicker', '~> 3.0.0'
 end
